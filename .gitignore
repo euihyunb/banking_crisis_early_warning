@@ -1,0 +1,20 @@
+# raw data: original downloads, not redistributed
+data/raw/*
+!data/raw/README.md
+
+# Python environment and cache
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm settings
+.idea/
+
+# OS and Excel temp files
+.DS_Store
+Thumbs.db
+~$*.xlsx
+
+# personal planning notes
+crisis_ews_project_plan.md
